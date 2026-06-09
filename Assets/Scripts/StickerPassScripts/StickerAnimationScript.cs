@@ -19,21 +19,25 @@ public class StickerAnimationScript : MonoBehaviour
         StartCoroutine(PlayAnimationAndParticles(nextscene, changescene));
     }
 
+    //activates the sticker
     public void GetSticker()
     {
         mAnimator.SetTrigger("ReceiveSticker");
     }
 
+    //play particle animation
     public void DoParticles()
     {
         ParticleSystem.Play();
     }
 
+    //play sound
     public void PlaySound()
     {
         GameObject.FindGameObjectWithTag("stickerPass").GetComponent<AudioSource>().Play();
     }
 
+    //play each function on time, and load the scene in the end.
     IEnumerator PlayAnimationAndParticles(string nextscene, bool changescene)
     {
         Debug.Log("Playing sticker animation");

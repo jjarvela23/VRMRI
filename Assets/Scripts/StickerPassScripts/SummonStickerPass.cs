@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
+//script for controlling the sticker pass.
 public class SummonStickerPass : MonoBehaviour
 {
     private Transform mainCamera;
