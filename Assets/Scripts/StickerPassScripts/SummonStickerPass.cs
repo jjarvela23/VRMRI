@@ -63,6 +63,8 @@ public class SummonStickerPass : MonoBehaviour
                     gameObject.GetComponent<StickerGiver>().GiveSticker("QNASticker"); break;
                 case "Quiz":
                     gameObject.GetComponent<StickerGiver>().GiveSticker("QuizSticker"); break;
+                case "Lajittelupeli":
+                    gameObject.GetComponent<StickerGiver>().GiveSticker(""); break;
 
                 default:
                     Debug.Log("Incorrect scene name");

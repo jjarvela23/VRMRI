@@ -58,6 +58,8 @@ public class UIManageri : MonoBehaviour
         {
             obj.ResetObject();
         }
+        //summon stickerpass and leave scene
+        GameObject.FindGameObjectWithTag("passReference").GetComponent<ReferencePass>().GetPass().SetActive(true);
     }
 
 

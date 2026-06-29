@@ -12,6 +12,7 @@ public class StickerGiver : MonoBehaviour
     [SerializeField] GameObject sortingGameSticker;
     [SerializeField] GameObject QNASticker;
     [SerializeField] GameObject quizSticker;
+    [SerializeField] GameObject lajittelupeliSticker;
     void Start()
     {
         
