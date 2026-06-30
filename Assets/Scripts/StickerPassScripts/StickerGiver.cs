@@ -57,6 +57,11 @@ public class StickerGiver : MonoBehaviour
                 quizSticker.SetActive(true);
                 quizSticker.GetComponent<StickerAnimationScript>().GiveSticker("Lobby", true);
                 break;
+            case "LajittelupeliSticker":
+                lajittelupeliSticker.SetActive(true);
+                lajittelupeliSticker.GetComponent<StickerAnimationScript>().GiveSticker("Lobby", true);
+                break;
+                  
 
 
             default:
